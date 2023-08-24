@@ -1,0 +1,3 @@
+color header:#1a3157
+letras header: #6e8943
+H1: #94c11f
