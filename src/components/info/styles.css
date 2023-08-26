@@ -43,5 +43,50 @@ margin: 0;
     letter-spacing: 2px;
 }
 @media (max-width: 975px){
-
+    .container-cards{
+        display: flex;
+    flex-direction: column;
+    width: auto;
+    }
+    .card1{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: auto;
+    }
+    .card2{
+        width: auto;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        justify-content: center;
+    }
+    .container-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .location h1{
+        padding: 0;
+        margin: 0;
+    }
+    .location{
+        background-color: white;
+        margin: 20px;
+        padding: 15px;
+        color: #017494;
+    }
+    .month{
+        margin-bottom: 20px;
+        font-size: 36px;
+        background-color: #005a7e;
+        color: white;
+        padding: 12px 140px 22px 140px;
+        border-radius: 7px 7px 35px 35px;
+    }
+    .month h2{
+        margin: 0;
+        letter-spacing: 2px;
+    }
 }

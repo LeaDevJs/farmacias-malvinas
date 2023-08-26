@@ -139,5 +139,63 @@ body{
   color: white;
 }
 @media (max-width: 975px){
-
+  .card{
+    display: flex;
+    height: auto;
+    margin: 10px;
+    box-shadow: 2px 3px 11px 0px rgba(0, 0, 0, 0.34);
+    flex-direction: column;
+    align-items: center;
+    background-color: #017494;
+    border-radius: 10px;
+}
+.qrBox{
+    display: flex;
+    height: 58%;
+    width: 90%;
+    margin: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.qrBox .icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #017494;
+    color: rgb(173 231 16);
+    opacity: 1;
+}
+.title{
+  display: flex;
+  height: 15%;
+  width: 90%;
+  align-items: center;
+  justify-content: start;
+  margin: 3px;
+  flex-direction: column;
+  margin-top: -32px;
+}
+.title p{
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  margin: 10px;
+  font-weight: 700;
+}
+.description{
+  display: flex;
+  height: 15%;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  flex-direction: column;
+}
+.description p{
+  margin: 2px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
 }
