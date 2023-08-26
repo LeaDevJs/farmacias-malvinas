@@ -2,7 +2,6 @@
   "name": "farmacias-malvinas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://leadevjs.github.io/farmacias-malvinas/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
