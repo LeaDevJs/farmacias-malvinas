@@ -9,7 +9,7 @@ function Dates(props) {
     <div>
       {props.num !== "" ? (
         <div className="container-son">
-          <Link to={`/info/${props.farmacia1Name}/${props.farmacia2Name}/${props.farmacia1Map}/${props.farmacia2Map}/${props.farmacia1Tel}/${props.farmacia2Tel}/${props.farmacia1Loc}/${props.farmacia2Loc}/${props.farmacia1Dir}/${props.farmacia2Dir}/${props.num}/${props.month}`}>
+          <Link to={`/info/${props.farmacia1Name}/${props.farmacia2Name}/${props.farmacia1Map}/${props.farmacia2Map}/${props.farmacia1Tel}/${props.farmacia2Tel}/${props.farmacia1Loc}/${props.farmacia2Loc}/${props.farmacia1Dir}/${props.farmacia2Dir}/${props.num}/${props.month}/${props.farmacia3Name}/${props.farmacia4Name}/${props.farmacia3Map}/${props.farmacia4Map}/${props.farmacia3Tel}/${props.farmacia4Tel}/${props.farmacia3Loc}/${props.farmacia4Loc}/${props.farmacia3Dir}/${props.farmacia4Dir}/`}>
             <div className="son jello-horizontal">
               <div className="num"><p>{props.num} </p></div>
               <div className="icon"><Brightness5Icon/></div>
