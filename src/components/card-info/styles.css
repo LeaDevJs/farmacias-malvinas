@@ -45,7 +45,7 @@ body{
 }
 .title p{
     text-align: center;
-    font-size: 28px;
+    font-size: 1.5em;
     color: white;
     margin: 10px;
     font-weight: 700;
@@ -176,11 +176,11 @@ body{
   margin-top: -32px;
 }
 .title p{
-  text-align: center;
-  font-size: 1.2em;
-  color: white;
-  margin: 10px;
-  font-weight: 700;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    margin: 10px;
+    font-weight: 700;
 }
 .description{
   display: flex;
