@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/farmacias-malvinas/static/css/main.a9fb6787.css",
+    "main.js": "/farmacias-malvinas/static/js/main.65d5756d.js",
+    "static/js/787.74ec2490.chunk.js": "/farmacias-malvinas/static/js/787.74ec2490.chunk.js",
+    "index.html": "/farmacias-malvinas/index.html",
+    "main.a9fb6787.css.map": "/farmacias-malvinas/static/css/main.a9fb6787.css.map",
+    "main.65d5756d.js.map": "/farmacias-malvinas/static/js/main.65d5756d.js.map",
+    "787.74ec2490.chunk.js.map": "/farmacias-malvinas/static/js/787.74ec2490.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9fb6787.css",
+    "static/js/main.65d5756d.js"
+  ]
+}
