@@ -9,3 +9,18 @@ img {
     
     margin-left: 40px;
 }
+@media (max-width: 975px){
+    .container{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    }
+    img{
+        height: 55%;
+        width: 29%;
+        margin: 0;
+    }
+    
+}

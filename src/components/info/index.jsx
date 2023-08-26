@@ -17,6 +17,11 @@ function Info(props){
                     <div className="card1"><CardInfo name={farmacia1Name} map={farmacia1Map} dir={farmacia1Dir} tel={farmacia1Tel} loc={farmacia1Loc}/></div>
                     <div className="card2"><CardInfo name={farmacia2Name} map={farmacia2Map} dir={farmacia2Dir} tel={farmacia2Tel} loc={farmacia2Loc}/></div>
                 </div>
+                <div className="container-flex">
+        <div class="attribution"> 
+            <a target="_blank" href="https://leadevjs.github.io/Portfolio-Frontend-React/">Coded by Leandro Zapata.</a>
+        </div>
+        </div>
         </div>
     );
 }

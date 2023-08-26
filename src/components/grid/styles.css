@@ -52,5 +52,54 @@
     padding: 15px;
     color: #017494;
 }
+.description{
+    margin: 20px;
+    padding: 15px;
+    color: white;
+}
+
+@media (max-width: 975px){
+    .month{
+        width: auto;
+    }
+    .month h2{
+        font-size: 0.8em;
+    }
+    .location h1{
+        font-size: 0.9em;
+    }
+    .location{
+        width: auto;
+    }
+    .description{
+        width: 50% !important;
+        margin-left: 20px !important;
+    }
+    .description h2{
+        font-size: 1.1em;
+    }
+    .container-grid-days{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        height: 1.2em;
+        width: auto;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .container-grid-days h3{
+        width: 2.6em;
+        font-size: 1.2em;
+        margin: 0;
+        color: #afd36a;
+    }
+    .container-grid{
+        width: 2.6em;
+        font-size: 1.2em;
+        margin: 0;
+        color: #afd36a;
+    }
+}
 
 

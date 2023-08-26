@@ -146,6 +146,7 @@ function Grid(){
         <div className="container-flex">
                 <div className="month"><h2>{month}</h2></div>
                 <div className="location"><h1>LOS POLVORINES-V. DE MAYO- A.SOURDEAUX</h1></div>
+                <div className="description"><h2>Hace click en la fecha actual para ver que farmacia está de turno!</h2></div>
                 <div className="container-grid-days">
                         <h3>DOM</h3>
                         <h3>LUN</h3>
@@ -196,6 +197,9 @@ function Grid(){
                 <Dates num=""></Dates>
                 <Dates num=""></Dates>
             </div>
+        <div class="attribution"> 
+            <a target="_blank" href="https://leadevjs.github.io/Portfolio-Frontend-React/">Coded by Leandro Zapata.</a>
+        </div>
         </div>
     );
 }

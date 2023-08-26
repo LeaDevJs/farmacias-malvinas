@@ -10,3 +10,17 @@
     margin-left: 40px;
     
 }
+@media (max-width: 975px){
+    .container-section{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    }
+    .container-section h1{
+        margin: 0;
+    font-size: 23px;
+        
+    }
+}

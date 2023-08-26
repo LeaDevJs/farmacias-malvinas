@@ -16,7 +16,7 @@
 }
 .son:hover{
     background-color: #005a7e;
-    transition: 1s;
+    animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}
 }
 .num{
     font-size: 15px;
@@ -42,4 +42,25 @@ opacity: 22%;
 .MuiSvgIcon-root{
     font-size: 71px !important;
     margin: 0 !important;
+}
+@media (max-width: 975px){
+    .son{
+        width: 1.2em;
+        height: 1.2em;
+        margin: 5px;
+    }
+    .num{
+        font-size: 0.4em;
+    margin: 0;
+    height: 20%;
+    }
+    .num p{
+        font-size: 0.7em;
+        margin-bottom: -1em;
+    }
+    .MuiSvgIcon-root{
+        font-size: 1.0em !important;
+    margin: 0 !important;
+    height: 70% !important;
+    }
 }
