@@ -19,7 +19,7 @@ function Grid(){
                 "direccion":"Ruta 8 y 197"}
         
         const alvarezvdm={
-                "nombre":"Farmacia Alvarez V. de Mayo",
+                "nombre":"Farmacia Alvarez",
                 "map": "QTNBi1y4JJiFBB8R8",
                 "telefono": "4660-0418",
                 "localidad":"Villa de mayo",
@@ -234,9 +234,8 @@ const riccardi={
 
         const month="AGOSTO";
     return(
-        <div className="container-flex">
+                <div className="container-flex">
                 <div className="month"><h2>{month}</h2></div>
-                <div className="location"><h1>LOS POLVORINES-V. DE MAYO- A.SOURDEAUX</h1></div>
                 <div className="description"><h2>Hace click en la fecha actual para ver que farmacia está de turno!</h2></div>
                 <div className="container-grid-days">
                         <h3>DOM</h3>
@@ -354,7 +353,12 @@ const riccardi={
                         farmacia4Map={wassermann.map}
                         farmacia4Tel={wassermann.telefono}
                         farmacia4Loc={wassermann.localidad}
-                        farmacia4Dir={wassermann.direccion}></Dates>
+                        farmacia4Dir={wassermann.direccion}
+                        farmacia5Name={noguesSCS.nombre}
+                        farmacia5Map={noguesSCS.map}
+                        farmacia5Tel={noguesSCS.telefono}
+                        farmacia5Loc={noguesSCS.localidad}
+                        farmacia5Dir={noguesSCS.direccion}></Dates>
 
                 <Dates num="06" month={month} 
                 farmacia1Name={aguila.nombre}
@@ -524,7 +528,12 @@ const riccardi={
                         farmacia4Map={wassermann.map}
                         farmacia4Tel={wassermann.telefono}
                         farmacia4Loc={wassermann.localidad}
-                        farmacia4Dir={wassermann.direccion}></Dates>
+                        farmacia4Dir={wassermann.direccion}
+                        farmacia5Name={amoriello.nombre}
+                        farmacia5Map={amoriello.map}
+                        farmacia5Tel={amoriello.telefono}
+                        farmacia5Loc={amoriello.localidad}
+                        farmacia5Dir={amoriello.direccion}></Dates>
                 <Dates num="14" month={month} 
                 farmacia1Name={ocampo.nombre}
                 farmacia1Map={ocampo.map}
@@ -650,7 +659,12 @@ const riccardi={
                         farmacia4Map={wassermann.map}
                         farmacia4Tel={wassermann.telefono}
                         farmacia4Loc={wassermann.localidad}
-                        farmacia4Dir={wassermann.direccion}></Dates>
+                        farmacia4Dir={wassermann.direccion}
+                        farmacia5Name={amoriello.nombre}
+                        farmacia5Map={amoriello.map}
+                        farmacia5Tel={amoriello.telefono}
+                        farmacia5Loc={amoriello.localidad}
+                        farmacia5Dir={amoriello.direccion}></Dates>
                 
                 <Dates num="20" month={month} 
                 farmacia1Name={borrino.nombre}
@@ -672,7 +686,12 @@ const riccardi={
                         farmacia4Map={riccardi.map}
                         farmacia4Tel={riccardi.telefono}
                         farmacia4Loc={riccardi.localidad}
-                        farmacia4Dir={riccardi.direccion}></Dates>
+                        farmacia4Dir={riccardi.direccion}
+                        farmacia5Name={elCallao24.nombre}
+                        farmacia5Map={elCallao24.map}
+                        farmacia5Tel={elCallao24.telefono}
+                        farmacia5Loc={elCallao24.localidad}
+                        farmacia5Dir={elCallao24.direccion}></Dates>
                 <Dates num="21" month={month} 
                 farmacia1Name={eberbach.nombre}
                  farmacia1Map={eberbach.map}
@@ -798,7 +817,12 @@ const riccardi={
                         farmacia4Map={riccardi.map}
                         farmacia4Tel={riccardi.telefono}
                         farmacia4Loc={riccardi.localidad}
-                        farmacia4Dir={riccardi.direccion}></Dates>
+                        farmacia4Dir={riccardi.direccion}
+                        farmacia5Name={elCallao24.nombre}
+                        farmacia5Map={elCallao24.map}
+                        farmacia5Tel={elCallao24.telefono}
+                        farmacia5Loc={elCallao24.localidad}
+                        farmacia5Dir={elCallao24.direccion}></Dates>
                 
                 <Dates num="27" month={month} 
                 farmacia1Name={buffarini.nombre}
