@@ -1,7 +1,7 @@
 .container{
     height: 14vh;
     background-color: #1a3157;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     align-items: center;
 }

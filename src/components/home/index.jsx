@@ -7,7 +7,7 @@ function Home(){
     return(
         <div>
             <Header></Header>
-            <SectionTitle title="Farmacia de turno"></SectionTitle>
+            <SectionTitle title="Farmacias de turno"></SectionTitle>
             <Grid></Grid>
         </div>
     );

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    display: flex;
+    height: 582px;
+    width: 381px;
+    margin: 50px;
+    box-shadow: 2px 3px 11px 0px rgba(0, 0, 0, 0.34);
+    flex-direction: column;
+    align-items: center;
+    background-color: #017494;
+    border-radius: 10px;
+}
+.qrBox{
+    display: flex;
+    height: 58%;
+    width: 90%;
+    margin: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.qrBox .icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #017494;
+    color: rgb(173 231 16);
+    opacity: 1;
+}
+.title{
+    display: flex;
+    height: 15%;
+    width: 90%;
+    align-items: center;
+    justify-content: start;
+    margin: 3px;
+    flex-direction: column;
+    margin-top: -32px;
+}
+.title p{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    margin: 10px;
+    font-weight: 700;
+}
+.description{
+    display: flex;
+    height: 15%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    flex-direction: column;
+}
+.description p{
+    margin: 2px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.btn-42,
+.btn-42 *,
+.btn-42 :after,
+.btn-42 :before,
+.btn-42:after,
+.btn-42:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-42 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: white;
+  background-image: none;
+  color: #017494;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-42:disabled {
+  cursor: default;
+}
+.btn-42:-moz-focusring {
+  outline: auto;
+}
+.btn-42 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-42 [hidden] {
+  display: none;
+}
+.btn-42 {
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  padding: 1rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-42 span {
+  mix-blend-mode: normal;
+}
+.btn-42:before {
+  --thickness: 4px;
+  border: var(--thickness) solid #fff;
+  border-radius: 999px;
+  content: "";
+  inset: calc(var(--thickness) * -1);
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: scale(1.3);
+  transition: transform 0.2s, opacity 0.2s;
+}
+.btn-42:hover:before {
+  opacity: 1;
+  transform: scale(1);
+}
+.btn-42:hover {
+  background-color: transparent;
+  color: white;
+}

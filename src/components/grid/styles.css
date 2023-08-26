@@ -3,14 +3,54 @@
     grid-template-columns: auto auto auto auto auto auto auto;
     height: 100%;
     width: 90%;
-    margin: 50px;
+    margin: 0;
     text-align: center;
     justify-content: center;
+    margin-bottom: 50px;
+}
+.container-grid-days{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    height: 100%;
+    width: 90%;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 .container-flex{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.month{
+    margin-bottom: 20px;
+    font-size: 36px;
+    background-color: #005a7e;
+    color: white;
+    padding: 12px 140px 22px 140px;
+    border-radius: 7px 7px 35px 35px;
+}
+.month h2{
+    margin: 0;
+    letter-spacing: 2px;
+}
+.container-grid-days h3{
+    width: 104px;
+    font-size: 32px;
+    margin: 0;
+    color: #afd36a;
+}
+.location h1{
+    padding: 0;
+    margin: 0;
+}
+.location{
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    color: #017494;
 }
 
 
